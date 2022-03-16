@@ -1,0 +1,38 @@
+{
+  "name": "@fujia/interview",
+  "version": "1.0.0",
+  "description": "Organize some resources related to interview",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujia-blogs/interview.git"
+  },
+  "keywords": [
+    "blogs",
+    "articles",
+    "fujia",
+    "interview"
+  ],
+  "author": {
+    "email": "fujia.site@outlook.com",
+    "name": "fujia",
+    "url": "https://fujia.site"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fujia-blogs/interview/issues"
+  },
+  "homepage": "https://github.com/fujia-blogs/interview#readme",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^15.0.0",
+    "commitlint": "^15.0.0",
+    "husky": "^7.0.4"
+  }
+}
